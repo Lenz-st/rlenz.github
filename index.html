@@ -1,40 +1,158 @@
-<!-- Try -->
-
-<html lang="en"></html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduce</title>
-    <style>
-        body {
-            text-align: center;
-        }
-		img {
-			width: 25%;
-			height: 70%;
-            object-fit: cover;
-		}
-	</style>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="mypic.jpg" alt="This is my image">
-    <h1>Naruephon Khunsriraksorn</h1>
-    <h2>First / DIT / G2</h2>
-    <hr>
-    <!-- <p>
-        My name is Naruephon Khunsriraksorn and my nickname is First im study at Panyapiwat Institute of Management.<br> Studying in the Faculty of Engineering, majoring in Digital infomation and Technology.
-    </p> -->
-    <h3>Inspiration of FullStack Dev</h3>
-    <p>I love everything about computer and technology And I need a Job that can make amount of money for my Family And my Sister life after My Graduate.</p>
-    <h3>Expectation</h3>
-    <p>I wish I can make the website or application that I want it to be , I love to Design&Create and make everything smoothy ~</p>
-    <h3>Want A Better Skill</h3>
-    <p>Coding about HTML/CSS , React and Node.js for my own website in the Future -w-</p>
-    <h3>Cool Website</h3>
-    <a href="https://neal.fun/deep-sea/">Let's Go in the Deep</a>
-    <h3>Let's Enjoy Nakub</h3>
-    <img src="totem.jpg" alt="pla">
+
+    <div class="container">
+
+        <!-- Profile Section -->
+        <table class="profile">
+            <tr>
+                <td>
+                    <div class="profile-picture-container">
+                        <img src="mypic.jpg" alt="profile-picture" class="profile-picture">
+                    </div>
+                </td>
+                <td>
+                    <h1>Naruephon Khunsriraksorn</h1>
+                    <p>3D Modeling | Designer | Content Creator</p>
+                    <p>Faculty of Engineering and Technology, Panyapiwat Institute of Management</p>
+                </td>
+            </tr>
+        </table>
+
+
+
+        <!-- About Me Section -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Students of the Faculty of Engineering and Technology, majoring in Digital and Information Technology,
+                who are
+                interested to make a 3D modeling and animatoin.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <tr>
+                    <td>3D Modeling</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Computer Hardware</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                </tr>
+                <tr>
+                    <td>Database Structure</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                    <td class="none"></td>
+                </tr>
+                <tr>
+                    <td>English Level</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                    <td class="none"></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                    <td class="none"></td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td class="check"></td>
+                    <td class="none"></td>
+                    <td class="none"></td>
+                    <td class="none"></td>
+                </tr>
+            </table>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>SK Kitchen</h3>
+                <p>December 2021 - January 2022</p>
+                <ul>
+                    <li>Inspect products for defects and correct any issues to ensure quality standards are met</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>7-11 Store</h3>
+                <p>March 2024 - May 2024</p>
+                <ul>
+                    <li>Customer Service</li>
+                    <li>Payment Management</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <div class="Study">
+                <h3>Panyapiwat Institute of Management</h3>
+                <p>April 2023 - Present</p>
+                <ul>
+                    <li>Faculty of Engineering and technology, Major in Digital Information Technology</li>
+                    <li>GPAX 3.14</li>
+                </ul>
+            </div>
+
+            <div class="Study">
+                <h3>Samchuk Ratanapokaram School</h3>
+                <p>May 2020 - March 2023</p>
+                <ul>
+                    <li>SMP</li>
+                    <li>GPAX 3.52</li>
+                </ul>
+
+                <p>May 2017 - March 2020</p>
+                <ul>
+                    <li>SMC</li>
+                    <li>GPAX 2.99</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Connect with me on <a
+                    href="https://www.linkedin.com/in/first-naruphon-327bb8312/">Linked
+                    In</a> | <a href="https://github.com/Lenz-st">GitHub</a> | <a
+                    href="C:\FirstProject\FullStack\Week2\contact.html">Contact</a></p>
+        </footer>
+    </div>
+
 </body>
+
 </html>
